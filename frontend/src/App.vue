@@ -4,12 +4,19 @@
   </AppLayout>
 </template>
 
+<script setup>
+import AppLayout from "@/layouts/AppLayout.vue";
+import HomeView from "@/layouts/HomeView.vue";
+</script>
+
 <style lang="scss">
 @import "@/assets/scss/app.scss";
+
 body {
   justify-content: center;
   align-items: center;
 }
+
 .main__wrapper {
   padding-bottom: 30px;
 
@@ -51,9 +58,4 @@ body {
     margin: 0 auto;
   }
 }
-
 </style>
-<script setup>
-import AppLayout from "@/layouts/AppLayout.vue";
-import HomeView from "@/layouts/HomeView.vue";
-</script>
